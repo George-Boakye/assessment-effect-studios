@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "PushPenny", ui-sans-serif, system-ui, sans-serif;
+
+  --color-primary-blue: #4a6dff;
+  --color-secondary-blue: #8c9eff;
+  --color-primary-gray: #f5f5f5;
+  --color-secondary-gray: #e0e0e0;
+  --color-tertiary-gray: #b0b0b0;
+  --color-primary-white: #ffffff;
+  --color-primary-black: #000000;
+  --color-secondary-black: #333333;
+  --color-primary-dark-blue: #233375;
+  --color-secondary-deep-blue: #0d2c65;
+  --color-secondary-greyish-blue: #6e80a3;
+  --color-secondary-bright-blue: #2668ec;
+  --color-primary-green: #04ce9d;
+}
+
+@font-face {
+  font-family: "PushPenny";
+  src: url("@/assets/fonts/PushPenny-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PushPenny";
+  src: url("@/assets/fonts/PushPenny-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PushPenny";
+  src: url("@/assets/fonts/PushPenny-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PushPenny";
+  src: url("@/assets/fonts/PushPenny-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PushPenny";
+  src: url("@/assets/fonts/PushPenny-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
