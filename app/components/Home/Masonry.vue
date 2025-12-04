@@ -51,7 +51,7 @@ const features = [
           <div class="mt-auto flex justify-center">
             <!-- Placeholder Image -->
             <div :class="['w-full relative', features[0].imageHeight]">
-              <img src="/images/swap.svg" alt="Masonry 2" class="w-full h-full object-contain absolute top-0 left-58 overflow-hidden">
+              <img src="/images/swap.svg" alt="Masonry 2" class="w-full h-full object-contain">
             </div>
           </div>
         </div>
@@ -66,8 +66,8 @@ const features = [
           </a>
           <div class="mt-auto flex justify-center">
              <!-- Placeholder Image -->
-            <div :class="['w-full relative', features[2].imageHeight]">
-              <img src="/images/referral.svg" alt="Masonry 2" class="w-full h-full object-contain absolute top-0 left-35 overflow-hidden">
+            <div :class="['w-full ', features[2].imageHeight]">
+              <img src="/images/Referral.svg" alt="Masonry 2" class="w-full h-full object-contain">
             </div>
           </div>
         </div>
@@ -85,8 +85,8 @@ const features = [
           </a>
           <div class="mt-auto flex justify-center">
              <!-- Placeholder Image -->
-            <div :class="['w-full relative', features[1].imageHeight]">
-              <img src="/images/express.svg" alt="Masonry 1" class="w-full h-full object-contain absolute top-0 left-60 overflow-hidden">
+            <div :class="['w-full', features[1].imageHeight]">
+              <img src="/images/express.svg" alt="Masonry 1" class="w-full h-full object-contain">
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@ const features = [
           <div class="mt-auto flex justify-center">
              <!-- Placeholder Image -->
             <div :class="['w-full  relative', features[3].imageHeight]">
-              <img src="/images/connect.svg" alt="Masonry 1" class="w-full h-full object-contain absolute top-0 left-60 overflow-hidden">
+              <img src="/images/connect.svg" alt="Masonry 1" class="w-full h-full object-contain">
             </div>
           </div>
         </div>
