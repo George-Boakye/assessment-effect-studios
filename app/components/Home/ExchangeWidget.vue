@@ -182,7 +182,7 @@ if (typeof window !== 'undefined') {
         </button>
 
         <!-- Mobile Only: Fee Display & Method Selector -->
-        <div class="flex sm:hidden items-center gap-2 ml-auto">
+        <div class="flex md:hidden items-center gap-2 ml-auto">
           <span class="text-[10px] text-gray-600">{{ feeAmount }} {{ sendCurrency.code }} Fee</span>
           
           <button

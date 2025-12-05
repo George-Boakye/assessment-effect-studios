@@ -16,7 +16,7 @@ import { partners } from "@/components/Home/config";
         </h6>
       </div>
 
-      <div class="sm:hidden">
+      <div class="lg:hidden">
         <div>
           <p class="text-secondary-greyish-blue text-2xl">Why Bomba?</p>
           <h5
@@ -41,11 +41,11 @@ import { partners } from "@/components/Home/config";
         </div>
       </div>
 
-      <div class="hidden sm:flex flex-row justify-between items-start mx-auto max-w-[1140px] mt-16 sm:mt-24 mb-16 sm:mb-24">
-        <div class="">
+      <div class="hidden lg:flex flex-row justify-between gap-20 items-start mx-auto max-w-[1140px] mt-16 sm:mt-24 mb-16 sm:mb-24">
+        <div class="flex-1">
           <HomeExchangeWidget />
         </div>
-        <div class="max-w-[582px]">
+        <div class="flex-1 max-w-[582px]">
           <div>
             <p class="text-secondary-greyish-blue text-2xl">Why Bomba?</p>
             <h5
